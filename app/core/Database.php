@@ -7,7 +7,7 @@
     {
         protected $connection;
 
-        public function_contruct()
+        public function __construct()
         {
             $this->connection = mysqli_connect(
                 DB_HOST,
